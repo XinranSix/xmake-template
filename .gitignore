@@ -16,8 +16,8 @@
 # binary
 /**/*.dll
 /**/*.exe
-/**/.a
-/**/.so
+/**/*.a
+/**/*.so
 
 ## package
 /**/uni_modules
