@@ -1,2 +1,6 @@
 # xmake-template
-xmake 的一个模板
+
+A template of [xmake](https://xmake.io/#/)
+
+
+

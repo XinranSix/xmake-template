@@ -84,7 +84,6 @@ add_requires("boost", {configs = {all = true}})
 add_requires("poco") 
 add_requires("range-v3")  -- 范围库
 add_requires("abseil") -- 补充标准库没有的常用功能
--- add_requires("fast_io")
 
 -- 测试
 add_requires("gtest") -- google test
@@ -95,7 +94,7 @@ add_requires("magic_enum")  -- 枚举反射
 add_requires("rttr") -- 反射库
 -- MessagePack 高效易用的序列化和反序列化工具，可以跨语言交换数据
 add_requires("msgpack-cxx") -- MessagePack implementation for C++
--- add_requires("msgpack-c") -- MessagePack implementation for C
+add_requires("msgpack-c") -- MessagePack implementation for C
 add_requires("protobuf-cpp")
 
 -- 日志
